@@ -1,5 +1,4 @@
 .container{
-    /* background-image:url(../../assets/images/circle.png); */
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row-reverse;
