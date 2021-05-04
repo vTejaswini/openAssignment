@@ -1,0 +1,74 @@
+.container{
+    /* background-image:url(../../assets/images/circle.png); */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.right-container img{
+ background-size: 20rem;
+}
+.main-container {
+    display: flex;
+    margin: 1.2rem 4rem;
+    justify-content: space-between;
+
+}
+.logo{
+    background-image: url(../../assets/images/circle.png);
+    background-size: 23rem;
+    min-height: 24rem;
+    min-width: 24rem;
+    left: -15%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+
+}
+.left-container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-container img {
+    width: 4rem;
+    margin-left: 3rem;
+
+}
+.right-container{
+    position: relative;
+    background-image: url(../../assets/images/lgcircle.png);
+    min-height: 33rem;
+    min-width: 33rem;
+    background-position: -13px -45px;
+    background-size: 35rem;
+    background-repeat: no-repeat;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+nav{
+    overflow: hidden;
+}
+nav a{
+    color: black;
+}
+.btn-outline-success {
+    background-color: #663399;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    width: 7rem;
+    background: linear-gradient( to right, #9F62C9, #663399)
+}
+.btn-outline-login {
+    border: 1px solid #663399;
+    background-color:none;
+    border-radius: 20px;
+    margin-right: 15px;
+    width: 7rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
