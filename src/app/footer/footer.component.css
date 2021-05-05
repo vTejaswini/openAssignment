@@ -1,0 +1,129 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 18rem;
+    height: 12rem;
+    bottom: 3rem;
+    border-radius: 7%;
+    left: 6rem;
+    margin: 10px;
+    padding: 10px
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body1 {
+    background: url(../../assets/images/Getpaid.png) no-repeat left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 4rem;
+    background-position: center center;
+    width: 72px;
+    height: 67px
+}
+
+.card-body2 {
+    background: url(../../assets/images/lowintertsRate.png) no-repeat left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 4rem;
+    background-position: center center;
+    width: 72px;
+    height: 67px
+}
+
+.card-body3 {
+    background: url(../../assets/images/SecurePayments.png) no-repeat left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 4rem;
+    background-position: center center;
+    width: 72px;
+    height: 67px
+}
+
+.card4 {
+    background-color: #a064db;
+    color: white;
+}
+
+.card-body4 {
+    background: url(../../assets/images/freelancer.png) no-repeat left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 4rem;
+    background-position: center center;
+    width: 72px;
+    height: 67px
+}
+
+.card-body5 {
+    background: url(../../assets/images/Covid.png) no-repeat left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 4rem;
+    background-position: center center;
+    width: 72px;
+    height: 67px
+}
+
+span {
+    position: absolute;
+    margin: 4rem 0 0 0;
+    padding: 5px 13px;
+}
+
+p {
+    position: absolute;
+    top: 6rem;
+    padding: 12px 6px;
+    font-family: ui-monospace;
+}
+
+.third-container {
+    width: 31%;
+    position: relative;
+    left: 10rem;
+    top: 5rem;
+}
+
+hr {
+    width: 45%;
+    height: 3px;
+    color: black;
+    background-color: 1px solid black;
+    margin-top: 9px;
+    border-width: 3px;
+    border: 1px solid black;
+}
+
+.third-container span {
+    margin: 10px;
+    font-size: 21px;
+}
+
+.btn-outline-login {
+    border: 2px solid #663399;
+    background-color: none;
+    border-radius: 20px;
+    width: 14rem;
+    color: #663399;
+    position: relative;
+    font-weight: 600;
+    top: 9rem;
+    box-shadow: none;
+    margin-left: 6rem;
+}
