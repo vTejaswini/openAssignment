@@ -11,7 +11,7 @@
 }
 
 .logo {
-    background-image: url(../../assets/images/circle.png);
+    background-image: url(/assets/images/circle.png);
     background-size: 17rem;
     min-height: 17rem;
     min-width: 23rem;
@@ -71,7 +71,7 @@ hr {
 
 .right-container {
     position: relative;
-    background-image: url(../../assets/images/lgcircle.png);
+    background-image: url(/assets/images/lgcircle.png);
     min-height: 33rem;
     min-width: 35rem;
     left: 4rem;
@@ -127,7 +127,7 @@ nav a {
     margin-top: 10rem;
     display: flex;
     position: relative;
-    background-image: url(../../assets/images/solwave.png);
+    background-image: url(/assets/images/solwave.png);
     background-size: 79rem;
     height: 25rem;
 }

@@ -26,7 +26,7 @@
 }
 
 .card-body1 {
-    background: url(../../assets/images/Getpaid.png) no-repeat left center;
+    background: url(/assets/images/Getpaid.png) no-repeat left center;
     background-repeat: no-repeat;
     display: inline-block;
     background-size: 4rem;
@@ -36,7 +36,7 @@
 }
 
 .card-body2 {
-    background: url(../../assets/images/lowintertsRate.png) no-repeat left center;
+    background: url(/assets/images/lowintertsRate.png) no-repeat left center;
     background-repeat: no-repeat;
     display: inline-block;
     background-size: 4rem;
@@ -46,7 +46,7 @@
 }
 
 .card-body3 {
-    background: url(../../assets/images/SecurePayments.png) no-repeat left center;
+    background: url(/assets/images/SecurePayments.png) no-repeat left center;
     background-repeat: no-repeat;
     display: inline-block;
     background-size: 4rem;
@@ -61,7 +61,7 @@
 }
 
 .card-body4 {
-    background: url(../../assets/images/freelancer.png) no-repeat left center;
+    background: url(/assets/images/freelancer.png) no-repeat left center;
     background-repeat: no-repeat;
     display: inline-block;
     background-size: 4rem;
@@ -71,7 +71,7 @@
 }
 
 .card-body5 {
-    background: url(../../assets/images/Covid.png) no-repeat left center;
+    background: url(/assets/images/Covid.png) no-repeat left center;
     background-repeat: no-repeat;
     display: inline-block;
     background-size: 4rem;
