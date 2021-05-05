@@ -1,0 +1,37 @@
+<div class="card">
+    <div class="card-body">
+        <h5>Eligibility Calculator</h5>
+        <div class="example-label-container">
+            <h6>Monthly Income</h6>
+            <label class="example-value-label"><span>&#8377;</span>{{value}}</label>
+
+            <ngx-slider [(value)]="value" [options]="options"></ngx-slider>
+        </div>
+        <div class="example-label-container">
+            <h6>Monthly Expenses</h6>
+            <label class="example-value-label"><span>&#8377;</span>{{value1}}</label>
+
+            <ngx-slider [(value)]="value1" [options]="options1"></ngx-slider>
+        </div>
+        <div class="select-dropdown">
+            <label>Repayment Tenure</label>
+            <select id="status" class="custom-select" ng-class="{'no-border': border}" id="inputEmail3">
+            <option>6 Months</option>
+            <option>12 Months</option>
+            <option>18 Months</option>
+        </select>
+        </div>
+        <div class="main-toogle">
+            <p>Do you have any existing loans?</p>
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="form-group">
+            <label for="loan">EMI of existing loan()optional</label>
+            <input type="text" class="form-control input-field" id="loan">
+        </div>
+    </div>
+
+</div>

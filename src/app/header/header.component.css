@@ -1,57 +1,108 @@
-.container{
+.container {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row-reverse;
 }
-.right-container img{
- background-size: 20rem;
-}
+
+
+/* .right-container img { */
+
+
+/* background-size: 20rem; */
+
+
+/* } */
+
 .main-container {
     display: flex;
     margin: 1.2rem 4rem;
     justify-content: space-between;
-
 }
-.logo{
+
+.logo {
     background-image: url(../../assets/images/circle.png);
-    background-size: 23rem;
-    min-height: 24rem;
-    min-width: 24rem;
-    left: -15%;
+    background-size: 17rem;
+    min-height: 17rem;
+    min-width: 23rem;
+    left: -22%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     position: relative;
-
 }
-.left-container{
+
+hr {
+    width: 45%;
+    height: 3px;
+    color: black;
+    background-color: 1px solid black;
+    margin-top: 9px;
+    border-width: 3px;
+    border: 1px solid black;
+}
+
+.left-container {
     display: flex;
     justify-content: space-between;
 }
+
 .left-container img {
     width: 4rem;
-    margin-left: 3rem;
-
+    margin-left: 5rem;
 }
-.right-container{
+
+.text-content {
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: inherit;
+    top: 14rem;
+    left: 12rem;
+    font-size: 25px;
+}
+
+.dots-img img {
+    background-size: 2rem;
+    width: 14rem;
+    position: absolute;
+    right: 0rem;
+    left: 20rem;
+    bottom: 10rem;
+}
+
+.text-content img {
+    margin-left: 0px;
+    size: 33px;
+    background-size: 10rem;
+    width: 18rem;
+    height: 11rem;
+    position: absolute;
+}
+
+.right-container {
     position: relative;
     background-image: url(../../assets/images/lgcircle.png);
     min-height: 33rem;
-    min-width: 33rem;
-    background-position: -13px -45px;
-    background-size: 35rem;
+    min-width: 35rem;
+    left: 4rem;
+    background-position: 7px -84px;
+    background-size: 38rem;
     background-repeat: no-repeat;
 }
+
 .container {
     position: absolute;
     margin: 20px;
     width: auto;
 }
-nav{
+
+nav {
     overflow: hidden;
 }
-nav a{
+
+nav a {
     color: black;
 }
+
 .btn-outline-success {
     background-color: #663399;
     color: aliceblue;
@@ -60,14 +111,25 @@ nav a{
     width: 7rem;
     background: linear-gradient( to right, #9F62C9, #663399)
 }
+
 .btn-outline-login {
     border: 1px solid #663399;
-    background-color:none;
+    background-color: none;
     border-radius: 20px;
     margin-right: 15px;
     width: 7rem;
 }
-.buttons{
+
+.buttons {
     display: flex;
     justify-content: space-between;
+}
+
+.loan-amount-container {
+    right: 4.6rem;
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    bottom: 16rem;
 }
